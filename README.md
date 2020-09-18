@@ -2,12 +2,11 @@
 
 <p align="center">
 
-Script for Backup and Update of Mikrotik in batches.
+:us: Script for Backup and Update of Mikrotik in batches.
 
-Script para Backup e Update de Mikrotik em lotes.
+:br: Script para Backup e Update de Mikrotik em lotes.
 
 </p>
-
 <p align="center">
  <a href="#history">History</a> •
  <a href="#objective">Objective</a> •
@@ -17,6 +16,7 @@ Script para Backup e Update de Mikrotik em lotes.
 
 <h1 id="history">:book: History</h1>
 
+:us: 
 The motivation to create this project came before I joined the CBMSC technology team, when I got there, there was already this script developed by ST Duwe to backup the emergency servers of the Fire Department of the State of Santa Catarina Brazil.
 
 The backups of the mikrotik equipment were made with scripts inside each router, sending the backup file to an FTP, making maintenance of the backups difficult since it was necessary to enter each one of them to configure or change some information, and when there was a problem with backups in the backups. we didn't know.
@@ -27,7 +27,7 @@ Some functions were improved over time, after the backup base was working we imp
 
 I hope this script can help the linux community as it helped me understand the basics of shellscript.
 
-
+:br: 
 A motivação para criar esse projeto veio antes de eu entrar para a equipe de tecnologia do CBMSC, quando cheguei lá já existia esse script desenvolvido pelo ST Duwe para fazer backup dos servidores de emergência do Corpo de bombeiros do Estado de Santa Catarina Brasil. 
 
 Os backups dos equipamentos mikrotiks eram feitos com scripts dentro de cada roteador enviando para um FTP o arquivo de backup, deixando a manutenção dos backups difícil pois era necessário entrar em cada um deles para configurar ou alterar alguma informação, e quando dava problemas de backup nos não ficavamos sabendo. 
@@ -92,51 +92,3 @@ $ vim bkmk
 <hr>
 
 @jorgediasdsg 2020
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The motivation to create this project came before I joined the CBMSC technology team, when I got there, there was already this script developed by ST Duwe to backup the emergency servers of the Fire Department of the State of Santa Catarina Brazil.
-The backups of the mikrotik equipment were made with scripts inside each router, sending the backup file to an FTP, making maintenance of the backups difficult since it was necessary to enter each one of them to configure or change some information, and when there was a problem with backups in the backups. we didn't know.
-
-With the collaboration of Sgt Leonardo, even when I was still working in the CBMSC network team, we remodeled this script to back up the mikrotik using an ssh key by running the commands in shellscript in a centralized location generating reports of all backups.
-
-Some functions were improved over time, after the backup base was working we implemented the upgrade function, so when it was necessary to update some mikrotik or just run a mass command it was only to point in the file which devices will be updated and in the other file which ones commands will be run.
-
-I hope this script can help the linux community as it helped me understand the basics of shellscript.
-
-
-A motivação para criar esse projeto veio antes de eu entrar para a equipe de tecnologia do CBMSC, quando cheguei lá já existia esse script desenvolvido pelo ST Duwe para fazer backup dos servidores de emergência do Corpo de bombeiros do Estado de Santa Catarina Brasil. 
-Os backups dos equipamentos mikrotiks eram feitos com scripts dentro de cada roteador enviando para um FTP o arquivo de backup, deixando a manutenção dos backups difícil pois era necessário entrar em cada um deles para configurar ou alterar alguma informação, e quando dava problemas de backup nos não ficavamos sabendo. 
-
-Com a colaboração do Sgt Leonardo ainda quando eu ainda trabalhava na equipe de redes do CBMSC remodelamos esse script para fazer backup dos mikrotiks usando uma chave ssh rodando os comandos em shellscript em um local centralizado gerando relatório de todos os backups.
-
-Algumas funções foram melhoradas ao longo do tempo, depois da base do backup estar funcionando implementamos a função de upgrade, para quando fosse necessário atualizar algum mikrotik ou apenas rodar um comando em massa era só apontar no arquivo quais aparelhos serão atualizados e no outro arquivo quais comandos serão rodados.
-
-Espero que esse script possa ajudar a comunidade linux como me ajudou a entender os fundamentos de shellscript.
