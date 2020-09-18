@@ -30,7 +30,7 @@ I hope this script can help the linux community as it helped me understand the b
 
 :brazil:
 
-A motivação para criar esse projeto veio antes de eu entrar para a equipe de tecnologia do CBMSC, quando cheguei lá já existia esse script desenvolvido pelo ST Duwe para fazer backup dos servidores de emergência do Corpo de bombeiros do Estado de Santa Catarina Brasil. 
+A motivação para criar esse projeto veio antes de eu entrar para a equipe de tecnologia do CBMSC, quando cheguei lá já existia esse script desenvolvido pelo ST Duwe para fazer backup dos servidores de emergência do Corpo de Bombeiros do Estado de Santa Catarina Brasil. 
 
 Os backups dos equipamentos mikrotiks eram feitos com scripts dentro de cada roteador enviando para um FTP o arquivo de backup, deixando a manutenção dos backups difícil pois era necessário entrar em cada um deles para configurar ou alterar alguma informação, e quando dava problemas de backup nos não ficavamos sabendo. 
 
