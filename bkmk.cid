@@ -1,0 +1,21 @@
+############################################################################################################
+######
+######   How to use
+######
+######   Type IP CITY/FOLDER FILE-NAME RUN_UPGRADE
+######   Use TAB to separate
+######   For update use y
+######   Example:
+######   10.0.241.124 New_York Brown_Bag_Laundry y
+######   The before example run at ip 10.0.241.124 and create folder New_York and 
+######   inside paste files backup and export with name Brown_Bag_Laundry and after run upgrade with y
+######   For desable host use # before the line.
+######   For run upgrade please insert command in bkmk.upgrade file. Once per line.
+######
+######   Enjoy!
+######
+################################################################################################################################
+10.0.241.124 New_York Brown_Bag_Laundry y
+10.0.242.101 New_York Brown_Bag_Laundry 
+#10.0.243.120 Annapolis Ace_Cleaners y
+10.0.244.145 Annapolis Admiral_Cleaners

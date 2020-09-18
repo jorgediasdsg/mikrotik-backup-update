@@ -1,0 +1,4 @@
+#Type only mikrotik command. Once per line
+#Comment line for not run
+#Example: 
+:log warning BACKUP_SERVER_CONNECTED
