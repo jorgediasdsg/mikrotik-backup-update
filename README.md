@@ -18,15 +18,15 @@
 
 :us: 
 
-The motivation to create this project came before I joined the CBMSC technology team, when I got there, there was already this script developed by ST Duwe to backup the emergency servers of the Fire Department of the State of Santa Catarina Brazil.
+The motivation to create this project came before I joined the CBMSC technology team, when I got there, there was already this script developed by ST Duwe to backup the emergency servers of the Fire Department of the State of Santa Catarina.
 
-The backups of the mikrotik equipment were made with scripts inside each router, sending the backup file to an FTP, making maintenance of the backups difficult since it was necessary to enter each one of them to configure or change some information, and when there was a problem with backups in the backups. we didn't know.
+The backups of the mikrotiks equipment were made with scripts inside each router sending to an FTP or backup file, making maintenance of the backups difficult because it was necessary to enter each one to change some information, and when there were problems configuring backups on we didn't know.
 
-With the collaboration of Sgt Leonardo, even when I was still working in the CBMSC network team, we remodeled this script to back up the mikrotik using an ssh key by running the commands in shellscript in a centralized location generating reports of all backups.
+With the collaboration of Sgt Leonardo when I was still working on the CBMSC network team, we remodeled this script to back up the mikrotik using an ssh key by running the commands in shellscript in a centralized location generating reports of all the backups, of those that worked and that had errors.
 
-Some functions were improved over time, after the backup base was working we implemented the upgrade function, so when it was necessary to update some mikrotik or just run a mass command it was only to point in the file which devices will be updated and in the other file which ones commands will be run.
+Some functions were improved over time, after the backup base was working we implemented the update function, so when it was necessary to update some mikrotik or just run a mass command it was only to point in the file which devices will be selected and in the other file which ones commands will be run.
 
-I hope this script can help the linux community as it helped me understand the basics of shellscript.
+I hope this script can help the linux community as it prepares me to understand the basics of shellscript.
 
 :brazil:
 
@@ -34,7 +34,7 @@ A motivação para criar esse projeto veio antes de eu entrar para a equipe de t
 
 Os backups dos equipamentos mikrotiks eram feitos com scripts dentro de cada roteador enviando para um FTP o arquivo de backup, deixando a manutenção dos backups difícil pois era necessário entrar em cada um deles para configurar ou alterar alguma informação, e quando dava problemas de backup nos não ficavamos sabendo. 
 
-Com a colaboração do Sgt Leonardo ainda quando eu ainda trabalhava na equipe de redes do CBMSC remodelamos esse script para fazer backup dos mikrotiks usando uma chave ssh rodando os comandos em shellscript em um local centralizado gerando relatório de todos os backups.
+Com a colaboração do Sgt Leonardo quando eu ainda trabalhava na equipe de redes do CBMSC remodelamos esse script para fazer backup dos mikrotiks usando uma chave ssh rodando os comandos em shellscript em um local centralizado gerando relatório de todos os backups, dos que deram certos e os que apresentavam erros.
 
 Algumas funções foram melhoradas ao longo do tempo, depois da base do backup estar funcionando implementamos a função de upgrade, para quando fosse necessário atualizar algum mikrotik ou apenas rodar um comando em massa era só apontar no arquivo quais aparelhos serão atualizados e no outro arquivo quais comandos serão rodados.
 
