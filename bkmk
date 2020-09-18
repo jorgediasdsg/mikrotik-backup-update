@@ -19,18 +19,18 @@
 ##################################################
 #    Config File Environments
 ##################################################
-export folder=/root/scripts/bkmk 		  #Directory where backup scripts are located.
-export servers=$folder/bkmk.cid			  #File where you will get the servers to perform the backup.
-export script=$folder/bkmk.sh			  #File that performs the backup.
-export folder_destiny=/var/bkp/mikrotik   #Backup folder.
-export update=$folder/bkmk.update 		  #File with commands to update.
-export sshuser=bkmk						  #User to ssh the backup.
-export userdefault=userAdminRouter		  #Power user to create user bkmk ssh the backup.
-export password_default=PasswdAdminRouter #Power pass to create user bkmk ssh the backup.
-export log=$folder/log/$data.log		  # Backup log file name and location.
-export days=5							  # Number of days to keep log files.
-export daysbkp=365						  # Number of days to keep log files.
-export commands_update=bkmk.update 		  # Commands that will be executed in the update.
+export folder=/root/scripts/bkmk            #Directory where backup scripts are located.
+export servers=$folder/bkmk.cid             #File where you will get the servers to perform the backup.
+export script=$folder/bkmk.sh               #File that performs the backup.
+export folder_destiny=/var/bkp/mikrotik     #Backup folder.
+export update=$folder/bkmk.update           #File with commands to update.
+export sshuser=bkmk                         #User to ssh the backup.
+export userdefault=userAdminRouter          #Power user to create user bkmk ssh the backup.
+export password_default=PasswdAdminRouter   #Power pass to create user bkmk ssh the backup.
+export log=$folder/log/$data.log            # Backup log file name and location.
+export days=5                               # Number of days to keep log files.
+export daysbkp=365                          # Number of days to keep log files.
+export commands_update=bkmk.update          # Commands that will be executed in the update.
 #Email where you will send the backup report.
 export email="ORGANIZATION <myemail@mydomain.etc>;<otheremail@mydomain.etc>"	
 
