@@ -92,6 +92,12 @@ $ cd mikrotik-backup-update
 # edit enviroments **Important!**
 $ vim bkmk
 
+# edit list routers **Important!**
+$ vim bkmk.cid
+
+# edit list commands update
+$ vim bkmk.update
+
 #If you want to run the project
 /bin/bash bkmk
 ```
