@@ -42,6 +42,8 @@ Espero que esse script possa ajudar a comunidade linux como me ajudou a entender
 
 <h1 id="objective">:bulb: Objective</h1>
 
+:us:
+
     - Create backup user into Routerboard
     - Connect with ssh key
     - Make dump Backup and Export file
@@ -49,6 +51,8 @@ Espero que esse script possa ajudar a comunidade linux como me ajudou a entender
     - Run update commands.
     - Copy to server backup file
     - Send email report.
+
+:brazil:
 
     - Criar usuário de backup na Routerboard
     - Conecte-se com a chave ssh
