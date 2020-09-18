@@ -16,7 +16,7 @@
 
 <h1 id="history">:book: History</h1>
 
-## :us: EN
+### :us: EN
 
 The motivation to create this project came before I joined the CBMSC technology team, when I got there, there was already this script developed by ST Duwe to backup the emergency servers of the Fire Department of the State of Santa Catarina.
 
@@ -28,7 +28,7 @@ Some functions were improved over time, after the backup base was working we imp
 
 I hope this script can help the linux community as it prepares me to understand the basics of shellscript.
 
-## :brazil: BR
+### :brazil: BR
 
 A motivação para criar esse projeto veio antes de eu entrar para a equipe de tecnologia do CBMSC, quando cheguei lá já existia esse script desenvolvido pelo ST Duwe para fazer backup dos servidores de emergência do Corpo de Bombeiros do Estado de Santa Catarina Brasil. 
 
