@@ -28,7 +28,7 @@ Some functions were improved over time, after the backup base was working we imp
 
 I hope this script can help the linux community as it prepares me to understand the basics of shellscript.
 
-## :brazil: Pt-Br
+## :brazil: BR
 
 A motivação para criar esse projeto veio antes de eu entrar para a equipe de tecnologia do CBMSC, quando cheguei lá já existia esse script desenvolvido pelo ST Duwe para fazer backup dos servidores de emergência do Corpo de Bombeiros do Estado de Santa Catarina Brasil. 
 
