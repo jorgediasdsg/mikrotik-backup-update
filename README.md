@@ -4,7 +4,7 @@
 
 :us: Script for Backup and Update of Mikrotik in batches.
 
-:br: Script para Backup e Update de Mikrotik em lotes.
+:brazil: Script para Backup e Update de Mikrotik em lotes.
 
 </p>
 <p align="center">
@@ -28,7 +28,7 @@ Some functions were improved over time, after the backup base was working we imp
 
 I hope this script can help the linux community as it helped me understand the basics of shellscript.
 
-:br: 
+:brazil:
 
 A motivação para criar esse projeto veio antes de eu entrar para a equipe de tecnologia do CBMSC, quando cheguei lá já existia esse script desenvolvido pelo ST Duwe para fazer backup dos servidores de emergência do Corpo de bombeiros do Estado de Santa Catarina Brasil. 
 
